@@ -1,0 +1,9 @@
+defaults.bluealsa.interface "hci0"
+defaults.bluealsa.device "E3:28:E9:20:47:83"
+defaults.bluealsa.profile "a2dp"
+defaults.bluealsa.delay 10000
+
+defaults.A2DP.interface "hci0"
+defaults.A2DP.device "E3:28:E9:20:47:83"
+defaults.A2DP.profile "a2dp"
+defaults.A2DP.delay 10000

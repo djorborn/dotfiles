@@ -1,0 +1,17 @@
+
+! URxvt settings
+URxvt*background: #333333
+URxvt*scrollBar: false
+URxvt*foreground: #eeeeee
+URxvt*font: xft:Hermit:size=10
+URxvt*saveLines: 5000
+URxvt*cusorBlink: true
+URxvt.keysym.C-M-c: builtin-string:
+URxvt.keysym.C-M-v: builtin-string:
+URxvt*keysym.Shift-Control-V: eval:paste_clipboard
+URxvt*keysym.Shift-Control-C: eval:selection_to_clipboard
+URxvt*perl-ext: default, clipboard
+
+
+! xterm settings
+xterm.background: #333333
